@@ -1,0 +1,252 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Cairo", sans-serif;
+  list-style: none !important;
+  text-decoration: none !important;
+  font-size: 24px;
+}
+
+body{
+  background: #f3ecec !important;
+
+}
+:root {
+  --farst-color: #0e6876;
+  --darck: #000;
+  --pramery: #195a65;
+  --red:#ff0000;
+}
+
+/* logo */
+.logo{
+  background: transparent;
+  height: 60px;
+}
+
+
+/* scrol */
+.up{
+  font-size: 30px;
+  position: fixed;
+  bottom: 60px;
+  left:  -30px;
+  color: var(--farst-color);
+  cursor: pointer;
+  transition: .2s;
+  z-index: 58865865;
+}
+.up.show{
+  left: 20px;
+}
+
+/* btn */
+.btn {
+  background-color: var(--darck) !important;
+  color: var(--farst-color) !important;
+  padding: 5px 13px !important;
+  width:max-content;
+  border-radius: 50px !important;
+  box-shadow: 7px 5px 20px #000;
+  transition: 0.3s;
+  font-size: 20px !important;
+}
+
+.btn:hover {
+  background-color: var(--red) !important;
+  color: var(--darck) !important;
+}
+
+.coil{
+  display: flex;
+  justify-content: space-around  !important;
+  gap: 20px !important;
+  z-index: 12923;
+}
+/* start header */
+.navbar {
+  background: #fff;
+  box-shadow: 10px 10px 30px #000;
+  position: sticky !important;
+  top: 0;
+  z-index: 9999;
+  height: 85px !important;
+}
+.navbar .active {
+  color: var(--farst-color);
+}
+.navbar .nav-item a {
+  color: var(--darck);
+}
+.navbar .nav-item a:hover {
+  color: var(--farst-color);
+
+}
+
+/* home */
+#particles-js {
+  background-color: var(--pramery);
+  height: 120vh;
+  background-attachment: fixed;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 50% 87%, 0 100%);
+  z-index: -1 !important;
+}
+
+
+.container-fluid {
+  position: relative;
+}
+
+.landing{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background: transparent;
+  position: relative;
+}
+
+.landing .landing-txt{
+  position: absolute;
+  top: 150px;
+}
+
+
+
+/* start service */
+.service{
+    padding: 60px 0;
+    position: relative;
+}
+/* start features */
+.features{
+    padding: 60px 0;
+}
+.features .container{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
+    gap: 20px;
+}
+
+.features .feat{
+    padding: 20px;
+    text-align: center;
+    background-color: var(--pramery);
+    border-radius: 20px;
+    box-shadow: 10px 10px 20px var(--darck);
+}
+
+
+.features .feat .col h4{
+    font-size: 24px;
+    color: var(--darck);
+}
+
+.features .feat .col p{
+    font-size: 18px;
+}
+.features .feat .col i{
+    color: var(--darck);
+    font-size: 50px;
+    z-index: 123123;
+}
+
+/* start about */
+.about{
+    padding: 60px 0;
+    position: relative;
+}
+
+.about h1,p{
+    text-align: center;
+}
+
+.about .container{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
+    gap: 20px;
+}
+
+.about .container .col{
+    width: 350px;
+    padding: 20px;
+    text-align: center;
+    background-color: var(--pramery);
+    border-radius: 20px;
+    box-shadow: 10px 10px 20px var(--darck);
+    margin: 0 auto;
+
+}
+.about .container .btn{
+  margin-top: 50px !important;
+
+}
+.about .col img{
+width: 100%;
+}
+
+
+/* start slider */
+.sliderer{
+  height: 100vh;
+}
+.sliderer .container h1{
+  text-align: center;
+}
+.sliderer .container .roow{
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  padding: 60px 0;
+}
+.sliderer .container .roow .nun{ 
+  flex: 1;
+  text-align: center;
+  font-size: 40px;
+  padding: 20px;
+  color: var(--darck);
+}
+
+.sliderer .container .roow p{
+  font-size: 24px;
+  color: var(--pramery);
+}
+
+
+/* footer */
+.footer{
+  text-align: center !important;
+  padding-bottom: 40px;
+}
+
+
+footer{
+  padding: 10px;
+  background-color: var(--darck);
+  color: var(--darck);
+  text-align: center !important;
+  border-radius: 40px;
+  position: sticky;
+  bottom: 0;
+}
+footer a{
+  color: var(--farst-color);
+}
+footer a:hover{
+  color: var(--darck);
+}
+footer:hover{
+  background-color: var(--red);
+}
+@media (min-width: 768px) {
+  .roow .nun{
+    text-align: center;
+  }
+}
+
+@media (min-width: 992) {
+}
+
+@media (min-width: 1200) {
+}

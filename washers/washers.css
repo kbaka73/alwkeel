@@ -1,0 +1,39 @@
+.one{
+    padding: 60px;
+    color: var(--farst-color);
+    text-align: center;
+}
+
+
+/* icon */
+.tow{
+    color: rgb(0, 246, 0);
+    border: 1px solid var(--farst-color);
+    border-radius: 50%;
+    padding: 3x;
+    font-size: 30px;
+}
+
+.tree{
+    text-align: center;
+  margin-top: 80px;
+  padding: 10px 50px !important;
+}
+/* 
+  --farst-color: #0d6978;
+  --darck: #000;
+  --pramery: #0d6978;
+   */
+   .up{
+    font-size: 50px;
+    position: fixed;
+    bottom: 20px;
+    left:  -30px;
+    color: var(--darck);
+    cursor: pointer;
+    transition: .2s;
+    z-index: 58865865;
+  }
+  .up.show{
+    left: 20px;
+  }
