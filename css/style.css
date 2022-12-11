@@ -12,6 +12,10 @@ body{
   background: #f3ecec !important;
 
 }
+p{
+color:var(--dark);
+}
+
 :root {
   --farst-color: #0e6876;
   --darck: #000;
@@ -71,7 +75,8 @@ body{
   position: sticky !important;
   top: 0;
   z-index: 9999;
-  height: 85px !important;
+  ont-size: 24px !important;
+  font-weight: normal;
 }
 .navbar .active {
   color: var(--farst-color);
